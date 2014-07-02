@@ -1,0 +1,29 @@
+{
+  "name": "xikijs-cli",
+  "version": "0.0.0",
+  "description": "Command line interface for xikijs",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:klorenz/xikijs-cli"
+  },
+  "keywords": [
+    "xiki",
+    "cli",
+    "command",
+    "line"
+  ],
+  "author": "Kay-Uwe (Kiwi) Lorenz <kay@moduleworks.com> (http://quelltexter.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klorenz/xikijs-cli/issues"
+  },
+  "homepage": "https://github.com/klorenz/xikijs-cli",
+  "dependencies": {
+    "optparse": "^1.0.5",
+    "xikijs": "git:github.com:klorenz/xikijs"
+  }
+}
